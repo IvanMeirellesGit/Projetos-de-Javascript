@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;600;700&family=Roboto+Slab:wght@100;300;500;600;800&display=swap');
+
+body {
+    background: #0e1813;
+}
+
+h1 {
+    max-width: 480px;
+    text-align: center;
+    margin: 40px auto;
+    font-family: "Roboto Mono", serif, monospace;
+    font-weight: 300;
+    color: #fff;
+}
+
+h1::after {
+    content: "|";
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+@keyframes pisca {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
