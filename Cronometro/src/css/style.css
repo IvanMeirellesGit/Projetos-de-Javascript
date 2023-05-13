@@ -54,7 +54,7 @@
     color: var(--color-secundary);
 }
 
-#miliseconds {
+#milliseconds {
     font-size: 30px;
     color: var(--color-secundary);
 }
@@ -87,4 +87,3 @@
 #resumebtn {
     display: none;
 }
-
